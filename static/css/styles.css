@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007bff;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#last-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+#price-change {
+    font-size: 20px;
+    font-weight: bold;
+    color: #dc3545;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #last-price {
+        font-size: 20px;
+    }
+
+    #price-change {
+        font-size: 18px;
+    }
+}

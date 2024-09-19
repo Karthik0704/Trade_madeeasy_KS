@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTC/USD Market Data - Trade Made Easy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>BTC/USD Live Market Data</h1>
+            <p>Your trusted platform for accurate, real-time updates in the world of cryptocurrency trading.</p>
+        </header>
+        <section class="market-data">
+            <p><strong>Last Price:</strong> <span id="last-price">Loading...</span></p>
+            <p><strong>24h Price Change:</strong> <span id="price-change">Loading...</span></p>
+           
+        </section>
+    </div>
+    
+    <div class="tips">
+        <h2>Pro Tip 💡</h2>
+        <p>"In trading, patience is power. Watch the market, observe trends, and strike with confidence."</p>
+    </div>
+
+    <footer>
+        <p>Brought to you by <strong>Trade-made easy-KS😍😎</strong></p>
+        <p>Stay tuned for more updates. Happy trading!</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
